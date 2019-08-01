@@ -1,22 +1,4 @@
 #-------------------------
-# Description of Data
-#-------------------------
-
-[1] 'CROS_COV.csv' --> This csv file has eight columns. Total number of rows are 
-205 which is also the number of sites. Column 1 has the names for different sites
-(given by source). Column 2 has a serial number corresponding to every site for 
-indexing purpose. Columns 3-6 have: proportion of tiger habitat available (PH)
-for each site,  site level encounter rates for all prey (AP) (i.e., Chital, Gaur, 
-Sambar, Muntjac, Wild Pig), large prey (LP) (i.e., Chital, Gaur, Sambar), human 
-intervention (HI) (via encounter rates of livestocks), respectively. Column 7 has
-values for lambda-hat(ct) for 42 camera trap sites. Column 8 has values for psi-hat(os). 
-
-[2] 'Vcr.csv' --> This file has the neighbourhood matrix 'V' only for the 42 camera
-trap sites.
-
-[3] 'Vcros.csv' --> This file has the neighbourhood matrix 'V' for all 205 sites.
-
-#-------------------------
 # R Codes
 #-------------------------
 
